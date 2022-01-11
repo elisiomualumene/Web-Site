@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+/* PALETA DE CORES */
+
+:root{
+   --yellow:#ffb927;
+   --orange:#ff501c;
+   --pink:#ff1164;
+   --purple:#8221e6;
+   --blue:#3d74fb;
+}
+
+/* NAVBAR */
+#main_navbar{
+    background-color: var(--purple);
+    color: white;
+}
+
+
+
+.navbar{
+    text-decoration: none;
+    font-size: 40px;
+    color: vwhite;
+}
+
+h1{
+    font-weight: 600;
+}
+
+span{
+    color: #111;
+}
+
+#navbarNav ul li{
+    font-size: 18px;
+}
+
+#navbarNav ul li a{
+    color: white;
+    transition: 1s;
+}
+
+#navbarNav ul li a:hover{
+    color: #111;
+}
+
+
+/* SECTION 1 */
+#section1{
+    color: white;
+    height: 570px;
+    padding-top: 8rem;
+    padding-left: 0;
+    background-color: var(--purple);
+}
+
+#card{
+    background-color: var(--purple);
+    margin: auto;
+    border: none;
+}
+
+#card img{
+    margin: auto;
+    text-align: center;
+    width: 150px;
+}
+
+.card-body h4{
+    font-weight: 900;
+}
+
+.social_media{
+    margin: 0;
+    padding: 0;
+}
+
+.social_media li{
+    display: inline;
+    margin: 2rem;
+}
+
+.social_media li a{
+    color: white;
+}
+
+/* SECTION 2 */
+
+#section_2{
+    color: black;
+    height: 600px;
+}
+
+#section_2 h4{
+    font-weight: 800;
+    color: black;
+    padding-top: 5rem;
+}
+
+#col-4{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#col-4 img {
+    padding-top: 05rem;
+    width: 150px;
+}
+
+#main_card{
+    padding-top: 2rem;
+}
+
+#card2{
+    padding: 2rem 2rem 0rem 2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.349) 1px 1px 10px 1px;
+}
+
+#progress{
+    height: 20px;
+    border-radius: 20px;
+    margin-bottom: 1.2rem;
+}
+
+#progress1{
+    height: 20px;
+    margin-bottom: 1.2rem;
+    border-radius: 20px;
+}
+
+#button2{
+    width: 150px;
+    border-radius: 20px;
+    background-color: var(--orange);
+}
+
+#cont{
+    margin-bottom: 2rem;
+}
+
+#bar1{
+    background-color: var(--yellow);
+}
+
+
+#bar2{
+    background-color: var(--orange);
+}
+
+
+#bar3{
+    background-color: var(--purple);
+}
+
+/* NUMEROS */
+#numb{
+    margin-top: 18rem;
+    text-align: center;
+    color: #7a7a7a;
+    font-weight: bolder;
+    font-size: 18px;
+    height: 430px;
+}
+
+#numb h6{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #111;
+}
+
+#numb .col-sm{
+    margin-bottom: 2rem;
+}
+
+@media(min-width:992px){
+    #numb{
+        margin-top: -10rem;
+    }
+}
+
+
+/* INFO CARDS */
+
+#brand_service h4{
+    font-weight: 800;
+    color: black;
+    padding-bottom: 2rem;
+}
+
+#info_cards img{
+    margin: 1rem auto 0px auto;
+    width: 100px;
+    transform: scale(70%);
+}
+
+#info_cards .card{
+    text-align: center;
+    border: none;
+    margin: 1rem;
+    color: white;
+    font-weight: 500;
+    box-shadow: #0000006b 3px 5px 20px 0px;
+}
+
+#info_cards .card p{
+    font-size: 20px;
+    transform: scale(80%);
+}
+
+@media(min-width:992px){
+    #info_cards{
+        margin-top: -20rem;
+    }
+    
+    #info_cards .card p{
+        margin-top: 0rem;
+    }
+}
+
+#info_cards .card h4{
+    font-weight: bold;
+}
+
+#info_cards #card1{
+    background-color: var(--purple);
+    height: 330px;
+    border-radius: 2rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#info_cards #card1:hover{
+    transition: 0.2s;
+    box-shadow: var(--purple) 5px 5px 30px 0px;
+}
+
+#info_cards #card_2{
+    background-color: var(--yellow);
+    height: 330px;
+    border-radius: 2rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#info_cards #card_2:hover{
+    transition: 0.2s;
+    box-shadow: var(--yellow) 5px 5px 30px 0px;
+}
+
+#info_cards #card3{
+    background-color: var(--orange);
+    height: 330px;
+    border-radius: 2rem;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#info_cards #card3:hover{
+    transition: 0.2s;
+    box-shadow: var(--orange) 5px 5px 30px 0px;
+}
+
+.info_footer p{
+    text-align: center;
+    margin: 2rem;
+}
+
+.info_footer p a{
+    color: var(--purple);
+    text-decoration: none;
+}
