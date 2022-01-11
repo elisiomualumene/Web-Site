@@ -28,6 +28,16 @@
     border-radius: 2rem;
 }
 
+.div2 ::placeholder{
+    text-align: center;
+    color:white;
+}
+
+.div2{
+    outline: none;
+    cursor: pointer;
+}
+
 .submit{
     margin: 1rem auto auto auto;
     display: block;

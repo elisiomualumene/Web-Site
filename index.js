@@ -7,8 +7,8 @@ var message = []
 
 button.addEventListener('click', () =>{
      if(input.value == 'elisio'){
-         localStorage.setItem(acesso, true)
-        window.location.href = './main/index.html'
+
+        window.location.href = './Page/index/home.html'
     }
 
     if (input.value != 'elisio' || input.value == '' || input.value == null){
