@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --yellow:#ffb927;
+    --orange:#ff501c;
+    --pink:#ff1164;
+    --purple:#8221e6;
+    --blue:#3d74fb;
+ }
+
+.formulario {
+    background-color: var(--purple);
+    margin-top: 8rem;
+    width: 300px;
+    height: 100px;
+    border-radius: 2rem;
+}
+
+.password{
+    outline: none;
+    border: none;
+    margin-top: 1rem;
+    width: 275px;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.submit{
+    margin: 1rem auto auto auto;
+    display: block;
+    width: 100px;
+    border:none;
+    font-weight: bold;
+    border-radius: 2rem;
+    color: white;
+    background-color: var(--blue);
+}
+
+.div{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
