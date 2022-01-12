@@ -274,3 +274,25 @@ span{
     color: var(--purple);
     text-decoration: none;
 }
+
+.spinner2{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 10rem;
+    border-radius: 100%;
+    border: white solid 20px;
+    border-top-color: var(--purple);
+    border-bottom-color: var(--purple);
+    animation: spinner2 .5s infinite linear;
+}
+
+@keyframes spinner2 {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
