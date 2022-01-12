@@ -23,12 +23,17 @@ button.addEventListener('click', () =>{
 
 
 let show = document.querySelector('.show')
-
+let close = document.querySelector('.bi-eye-slash')
+let open = document.querySelector('.bi-eye')
 
 show.addEventListener('click', () =>{
     input.type = 'text'
+    close.style.display = 'none'
+    open.style.display = 'block'
 })
 
 show.addEventListener('dblclick', () =>{
     input.type = 'password'
+    close.style.display = 'block'
+    open.style.display = 'none'
 })
