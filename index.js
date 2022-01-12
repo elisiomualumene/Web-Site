@@ -20,3 +20,15 @@ button.addEventListener('click', () =>{
     }
     
 })
+
+
+let show = document.querySelector('.show')
+
+
+show.addEventListener('click', () =>{
+    input.type = 'text'
+})
+
+show.addEventListener('dblclick', () =>{
+    input.type = 'password'
+})

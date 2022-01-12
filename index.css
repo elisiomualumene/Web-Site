@@ -76,26 +76,25 @@ label{
 
 .form_login p{
     color: white;
+    margin-top: 4rem;
 }
 .submit{
     background-color: var(--yellow);
     color:white;
     border: none;
-    border-radius: 2rem;
     padding: .2rem;
     width: 150px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .div{
     margin: .5rem;
     font-weight: 700;
-    color: red;
+    color: rgb(99, 39, 39);
 }
 
-.spinner{
-    margin: 2rem auto;
-    display: block;
-}
+
 
 footer{
     background: #222;
@@ -118,4 +117,15 @@ footer{
 
 #title{
     margin-top: 1rem;
+}
+
+.show{
+    font-weight: 500;
+    width: 70px;
+    border: none;
+    padding: .2rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--yellow);
 }
