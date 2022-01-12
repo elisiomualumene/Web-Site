@@ -142,7 +142,7 @@ footer{
     height: 200px;
     margin-top: 10rem;
     border-radius: 100%;
-    border: white solid 30px;
+    border: white solid 20px;
     border-top-color: var(--blue);
     border-bottom-color: var(--blue);
     animation: spinner 1s infinite linear;

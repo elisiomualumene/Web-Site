@@ -42,7 +42,7 @@ show.addEventListener('dblclick', () =>{
 var cache
 
 function spin() {
-    cache = setTimeout(showpage, 1500)
+    cache = setTimeout(showpage, 2000)
 }
 
 
