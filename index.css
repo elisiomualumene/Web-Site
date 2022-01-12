@@ -136,3 +136,24 @@ footer{
 }
 
 
+.spinner{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    margin-top: 10rem;
+    border-radius: 100%;
+    border: white solid 10px;
+    border-top-color: var(--blue);
+    border-bottom-color: var(--blue);
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

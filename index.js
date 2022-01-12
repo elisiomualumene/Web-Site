@@ -37,3 +37,25 @@ show.addEventListener('dblclick', () =>{
     close.style.display = 'block'
     open.style.display = 'none'
 })
+
+// var myVar;
+
+// function myFunction() {
+//   myVar = setTimeout(showPage, 3000);
+// }
+
+// function showPage() {
+//   document.getElementById("loader").style.display = "none";
+//   document.getElementById("myDiv").style.display = "block";
+// }
+var myvar
+
+function spin() {
+    myvar = setTimeout(showpage, 1500)
+}
+
+
+function showpage(){
+    document.querySelector('.spinner').style.display = 'none'
+    document.querySelector('.const').style.display = 'block'
+}
