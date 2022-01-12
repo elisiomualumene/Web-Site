@@ -6,6 +6,8 @@ let div = document.querySelector('.div')
 var message = []
 
 button.addEventListener('click', () =>{
+   
+
      if(input.value == 'elisio'){
 
         window.location.href = './Page/index/home.html'

@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 *{
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -11,48 +16,112 @@
     --blue:#3d74fb;
  }
 
-.formulario {
-    background-color: var(--purple);
-    margin-top: 8rem;
-    width: 300px;
-    height: 100px;
-    border-radius: 2rem;
-}
-
-.password{
-    outline: none;
-    border: none;
+#navbar{
+    text-align: center;
     margin-top: 1rem;
-    width: 275px;
+    margin-bottom: 2rem;
+}
+
+#navbar h1{
+    font-weight: 800;
+    color: var(--blue);
+}
+
+#navbar span{
+    color: #111;
+}
+
+.container img{
+    margin-top: 1rem;
+    padding: 0;
+    width: 300px;
+}
+
+@media(min-width: 992px){
+    .container img {
+        width: 400px;
+    }
+}
+
+.form_login{
     text-align: center;
+    height: 320px;
+    width: 340px;
     border-radius: 2rem;
-}
-
-.div2 ::placeholder{
-    text-align: center;
-    color:white;
-}
-
-.div2{
-    outline: none;
-    cursor: pointer;
-}
-
-.submit{
-    margin: 1rem auto auto auto;
-    display: block;
-    width: 100px;
-    border:none;
-    font-weight: bold;
-    border-radius: 2rem;
-    color: white;
+    margin: 3rem auto auto auto;
     background-color: var(--blue);
+    box-shadow: var(--blue) 1px 1px 10px 1px;
+}
+
+.form_login:hover{
+    box-shadow: var(--blue) 1px 1px 100px 1px;
+}
+
+label{
+    color: white;
+    display: block;
+    font-weight: 800;
+    padding-top: 2rem;
+}
+
+.form_login input{
+    display: block;
+    width: 250px;
+    outline: none;
+    text-align: center;
+    margin: 2rem auto 1rem auto;
+    border: none;
+    border-radius: 2rem;
+}
+
+
+.form_login p{
+    color: white;
+}
+.submit{
+    background-color: var(--yellow);
+    color:white;
+    border: none;
+    border-radius: 2rem;
+    padding: .2rem;
+    width: 150px;
 }
 
 .div{
-    margin-top: 1.5rem;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
+    margin: .5rem;
+    font-weight: 700;
     color: red;
+}
+
+.spinner{
+    margin: 2rem auto;
+    display: block;
+}
+
+footer{
+    background: #222;
+    margin-top: 10rem;
+    color: white;
+    height: 60px;
+}
+
+.social_media{
+    margin-top: 1rem;
+}
+
+.social_media i{
+    font-size: 20px;
+    margin: 1rem;
+}
+
+.social_media i:hover{
+    color: var(--yellow);
+}
+
+#title{
+    margin-top: 1rem;
+}
+
+#title h4{
+    font-family: 'Satisfy', cursive;
 }
