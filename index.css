@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 *{
     font-family: 'Lato', sans-serif;
@@ -102,7 +101,6 @@ footer{
     background: #222;
     margin-top: 10rem;
     color: white;
-    height: 60px;
 }
 
 .social_media{
@@ -120,8 +118,4 @@ footer{
 
 #title{
     margin-top: 1rem;
-}
-
-#title h4{
-    font-family: 'Satisfy', cursive;
 }
