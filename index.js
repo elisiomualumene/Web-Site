@@ -4,12 +4,12 @@ let button = document.querySelector('.submit')
 let div = document.querySelector('.div')
 
 var message = []
+const senha = 'elisio' //implementar hash criptografia ponto á ponto
 
 button.addEventListener('click', () =>{
    
 
-     if(input.value == 'elisio'){
-
+     if(input.value == senha){
         window.location.href = './Page/index/home.html'
     }
 
